@@ -39,7 +39,7 @@ export function Contact() {
       ref={sectionRef}
       className="py-24 lg:py-32 bg-card-bg/30"
     >
-      <div className="w-full px-6 sm:px-8 lg:px-12 xl:px-16">
+      <div className="w-full max-w-[1800px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
         <div
           ref={contentRef}
           className="max-w-2xl mx-auto text-center"

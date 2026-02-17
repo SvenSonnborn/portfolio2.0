@@ -62,7 +62,7 @@ export function Hero() {
       ref={containerRef}
       className="relative min-h-screen flex items-center pt-20 lg:pt-0 overflow-hidden"
     >
-      <div className="w-full px-6 sm:px-8 lg:px-12 xl:px-16">
+      <div className="w-full max-w-[1800px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
         <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           {/* Content - Left Side */}
           <div className="lg:col-span-7 xl:col-span-6 space-y-6 lg:space-y-8">
@@ -85,10 +85,9 @@ export function Hero() {
 
             <p
               ref={descriptionRef}
-              className="text-lg lg:text-xl text-muted max-w-lg leading-relaxed"
+              className="text-lg lg:text-xl text-muted max-w-2xl leading-relaxed"
             >
-              Building production applications since 2022. From NDR apps to
-              compliance tools.
+              Frontend Developer delivering high-quality web and native applications — from media platforms to enterprise tools — built with React, Angular, and React Native.
             </p>
 
             <div ref={ctaRef}>

@@ -98,7 +98,7 @@ export function Projects() {
       ref={sectionRef}
       className="py-24 lg:py-32"
     >
-      <div className="w-full px-6 sm:px-8 lg:px-12 xl:px-16">
+      <div className="w-full max-w-[1800px] mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
         {/* Section Label */}
         <div className="mb-12 lg:mb-16">
           <span className="font-mono text-sm text-accent uppercase tracking-widest">
